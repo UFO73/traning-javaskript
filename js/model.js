@@ -53,13 +53,52 @@
 // console.log(brand);
 
 
-const balance = false;
-let massage;
+// const balance = 0;
+// let massage;
 
-if (balance > 0) {
-    massage = 'Позитивний баланц';
-} else {
-    massage = 'Негативний баланц';
+// if (balance > 0) {
+//     massage = 'Позитивний баланц';
+// } else {
+//     massage = 'Негативний баланц';
+// }
+
+// console.log(massage)
+
+const stars = 6;
+let price;
+
+// if (stars === 1) {
+//     price = 20;
+// } else if (stars === 2) {
+//     price = 30;
+// } else if (stars === 3) {
+//     price = 50;
+// } else if (stars === 4) {
+//     price = 70;
+// } else if (stars === 5) {
+//     price = 120;
+// } else {
+//     console.log('такої кількості зірок не існує')
+// }
+
+switch (stars) {
+    case 1:
+        price = 20;
+        break;
+    case 2:
+        price = 30;
+        break;
+    case 3:
+        price = 50;
+        break;
+    case 4:
+        price = 70;
+        break;
+    case 5:
+        price = 120;
+        break;
+    default: 
+        console.log('No')
 }
 
-console.log(massage)
+console.log(price)
