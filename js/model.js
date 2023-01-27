@@ -64,8 +64,8 @@
 
 // console.log(massage)
 
-const stars = 6;
-let price;
+// const stars = 5;
+// let price;
 
 // if (stars === 1) {
 //     price = 20;
@@ -81,24 +81,93 @@ let price;
 //     console.log('такої кількості зірок не існує')
 // }
 
-switch (stars) {
-    case 1:
-        price = 20;
-        break;
-    case 2:
-        price = 30;
-        break;
-    case 3:
-        price = 50;
-        break;
-    case 4:
-        price = 70;
-        break;
-    case 5:
-        price = 120;
-        break;
-    default: 
-        console.log('No')
+// switch (stars) {
+//     case 1:
+//         price = 20;
+//         break;
+//     case 2:
+//         price = 30;
+//         break;
+//     case 3:
+//         price = 50;
+//         break;
+//     case 4:
+//         price = 70;
+//         break;
+//     case 5:
+//         price = 120;
+//         break;
+//     default:
+//         console.log('No')
+// }
+
+// console.log(price)
+
+
+// function isValidPassword(password) {
+//   const SAVED_PASSWORD = 'jqueryismyjam';
+//   // Change code below this line
+//   const isMatch =  isValidPassword === 'jqueryismyjam';
+
+//   // Change code above this line
+//   return isMatch;
+// }
+
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//   let message;
+//   // Change code below this line
+//   let totalPrice = pricePerDroid * orderedQuantity;
+//   if (totalPrice > customerCredits) {
+//     message = `Insufficient funds!`;
+//   } else {
+//     message = `You ordered ${orderedQuantity} droids, you have ${customerCredits - totalPrice} credits left`;
+//   }
+//   // Change code above this line
+//   return message;
+// }
+
+
+// const courseTopic = "JavaScript essentials";
+// // Change code below this line
+
+// const courseTopicLength = courseTopic.length;
+// const firstElement = courseTopic[0];
+// const lastElement = courseTopic.length - 1;
+
+
+// function formatMessage(message, maxLength) {
+//   let result;
+//   // Change code below this line
+//     if (message.length < maxLength) {
+//         result = message;
+//     } else {
+//         result = "okio"
+//     }
+//   /// Change code above this line
+//   return result;
+// }
+
+// formatMessage("Curabitur ligula sapien", 16);
+// formatMessage("Curabitur ligula sapien", 23);
+// formatMessage("Vestibulum facilisis purus nec", 20);
+// formatMessage("Vestibulum facilisis purus nec", 30);
+// formatMessage("Nunc sed turpis a felis in nunc fringilla", 15);
+// formatMessage("Nunc sed turpis a felis in nunc fringilla", 41);
+
+
+const message = "Amazing SalE, only tonight!";
+const messagelower = message.toLowerCase();
+let result;
+
+if (messagelower.includes('sale')) {
+    result = true;
+} else if (messagelower.includes('spam')) {
+    result = true;
+} else {
+    result = false;
 }
 
-console.log(price)
+console.log(messagelower)
+console.log(result)
+
+
