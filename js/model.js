@@ -155,19 +155,19 @@
 // formatMessage("Nunc sed turpis a felis in nunc fringilla", 41);
 
 
-const message = "Amazing SalE, only tonight!";
-const messagelower = message.toLowerCase();
-let result;
+// const message = "Amazing SalE, only tonight!";
+// const messagelower = message.toLowerCase();
+// let result;
 
-if (messagelower.includes('sale')) {
-    result = true;
-} else if (messagelower.includes('spam')) {
-    result = true;
-} else {
-    result = false;
-}
+// if (messagelower.includes('sale')) {
+//     result = true;
+// } else if (messagelower.includes('spam')) {
+//     result = true;
+// } else {
+//     result = false;
+// }
 
-console.log(messagelower)
-console.log(result)
+// console.log(messagelower)
+// console.log(result)
 
 
