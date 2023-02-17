@@ -170,6 +170,124 @@
 // console.log(messagelower)
 // console.log(result)
 
-console.log("two" && 0)
+// console.log("two" && 0)
+
+// function createArrayOfNumbers(min, max) {
+//   const numbers = [];
+//   // Change code below this line
+
+//   for (let i = min; i <= max; i += 1) {
+//     numbers.push(i)
+//   }
+
+//   // Change code above this line
+//   return numbers;
+// }
+
+// console.log(createArrayOfNumbers(1, 3))
+// console.log(createArrayOfNumbers(14, 17))
+// console.log(createArrayOfNumbers(29, 34))
+
+// function filterArray(numbers, value) {
+// const arr = [];
+
+//   for (let i = 0; i < numbers.length; i += 1) {
+//     console.log(numbers[i])
+//     if (value < numbers[i]) {
+//       arr.push(numbers[i])
+//     }
+//   }
+
+//   return arr;
+
+// }
 
 
+// console.log(filterArray([1, 2, 3, 4, 5], 3))
+// console.log(filterArray([1, 2, 3, 4, 5], 4))
+// console.log(filterArray([1, 2, 3, 4, 5], 5))
+// console.log(filterArray([12, 24, 8, 41, 76], 38))
+// console.log(filterArray([12, 24, 8, 41, 76], 20))
+
+
+// function getCommonElements(array1, array2) {
+  
+//   const element = []
+//   for (const arr of array1) {
+//     if (array2.includes(arr)) {
+//       element.push(arr)
+//     }
+//   }
+
+
+//   return element;
+ 
+// }
+
+
+// console.log(getCommonElements([1, 2, 3], [2, 4]))
+
+// function calculateTotalPrice(order) {
+//   let total = 0;
+//   // Change code below this line
+
+//   for (const orr of order) {
+//     total += orr;
+//   }
+
+//   // Change code above this line
+//   return total;
+// }
+
+
+// console.log(calculateTotalPrice([12, 85, 37, 4]))
+
+// function filterArray(numbers, value) {
+//   // Change code below this line
+//   const filteredNumbers = [];
+
+//   for (const number of numbers) {
+
+//     if (number > value) {
+//       filteredNumbers.push(number);
+//     }
+//   }
+
+//   return filteredNumbers;
+//   // Change code above this line
+// }
+
+// console.log(filterArray([12, 24, 8, 41, 76], 20))
+
+// function getEvenNumbers(start, end) {
+//   const total = []
+
+//   for (let i = start; i <= end; i += 1) {
+//     // console.log(i)
+//     if (i % 2 === 0) {
+//       total.push(i);
+//     }
+//   }
+
+//   return total;
+
+  
+// }
+
+// console.log(getEvenNumbers(6, 12))
+
+// function includes(array, value) {
+  
+//   let message = false;
+
+//   for (const arr of array) {
+//     if (arr === value) {
+//       message = true;
+//     }
+
+//   }
+
+//   return message;
+// }
+
+// console.log(includes([1, 2, 3, 4, 5], 9))
