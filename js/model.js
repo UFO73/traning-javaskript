@@ -170,4 +170,6 @@
 // console.log(messagelower)
 // console.log(result)
 
+console.log("two" && 0)
+
 
